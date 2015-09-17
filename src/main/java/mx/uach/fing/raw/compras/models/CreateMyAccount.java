@@ -12,7 +12,7 @@ import javax.persistence.Table;
  * @author a256995 TANIA ARANDA LOPEZ
  * @author a262002 SARA RODRIGUEZ SOTO
  * @author a256820 ERIKA NAVARRO 
- * @author a       ROGELIO VALENZUELA
+ * @author a256799 ROGELIO VALENZUELA
  * 
  */
 @Entity

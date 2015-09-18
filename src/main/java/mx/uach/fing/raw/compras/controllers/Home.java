@@ -1,5 +1,14 @@
 package mx.uach.fing.raw.compras.controllers;
 
+/**
+ *
+ * @author a256995 TANIA ARANDA LOPEZ
+ * @author a262002 SARA RODRIGUEZ SOTO
+ * @author a256820 ERIKA NAVARRO 
+ * @author a256799 ROGELIO VALENZUELA
+ * 
+ */
+
 import freemarker.cache.ClassTemplateLoader;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -11,7 +20,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
-import static mx.uach.fing.raw.compras.models.CreateMyAccount_.password;
 import mx.uach.fing.raw.compras.models.MisCompras;
 import spark.Request;
 import spark.Response;
@@ -32,7 +40,7 @@ public class Home {
      *
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args, Object password) {
 get("/home/:usuario", (Request req, Response res) -> {
             String usuario = req.params("usuario") != null ? req.params("usuario") : "no logeado";
 

@@ -1,0 +1,61 @@
+     [
+                {
+                    "id_producto": 1,
+                    "producto": "Vestido",
+                    "precio": 350,
+                    "descripción": "Vestido Azul"
+                },
+                {
+                    "id_producto": 2,
+                    "producto": "Blusa",
+                    "precio": 200,
+                    "descripción": "Blusa Blanca"
+                },
+                {
+                    "id_producto": 3,
+                    "producto": "Pantalón",
+                    "precio": 250,
+                    "descripción": "Pantalón de Mezclilla"
+                },
+            
+       
+                {
+                    "id_producto": 1,
+                    "producto": "Collar",
+                    "precio": 50,
+                    "descripción": "Collar de Plata"
+                },
+                {
+                    "id_producto": 2,
+                    "producto": "Bolsa",
+                    "precio": 400,
+                    "descripción": "Bolsa de mano"
+                },
+                {
+                    "id_producto": 3,
+                    "producto": "Lentes",
+                    "precio": 250,
+                    "descripción": "Lentes de sol"
+                },
+            
+        
+        
+                {
+                    "id_producto": 1,
+                    "producto": "Tacón",
+                    "precio": 500,
+                    "descripción": "Stiletto"
+                },
+                {
+                    "id_producto": 2,
+                    "producto": "Tenis",
+                    "precio": 450,
+                    "descripción": "Nike"
+                },
+                {
+                    "id_producto": 3,
+                    "producto": "Bota",
+                    "precio": 550,
+                    "descripción": "Bota de tubo"
+                }
+            ]

@@ -2,11 +2,11 @@
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
   <persistence-unit name="tienditaservice" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-    <class>mx.uach.fing.compras.project.Articles</class>
-    <class>mx.uach.fing.compras.project.CreateMyAccount</class>
-    <class>mx.uach.fing.compras.project.Login</class>
-    <class>mx.uach.fing.compras.project.LoginAdmin</class>
-    <class>mx.uach.fing.compras.project.ShopingList</class>
+    <class>mx.uach.fing.raw.compras.models.ShopingList</class>
+    <class>mx.uach.fing.raw.compras.models.CreateMyAccount</class>
+    <class>mx.uach.fing.raw.compras.models.MisCompras</class>
+    <class>mx.uach.fing.raw.compras.models.TProductos</class>
+    <class>mx.uach.fing.raw.compras.models.TAdministrador</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/tiendita"/>
       <property name="javax.persistence.jdbc.user" value="postgres"/>
